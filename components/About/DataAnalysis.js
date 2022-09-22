@@ -2,7 +2,7 @@ import classes from "./About.module.css";
 
 
 
-const DataAnalysis = () => {
+const dataAnalysis = () => {
     return (
         <div className={classes.dataContainer}>
             <div className={classes.textContainer}>
@@ -23,4 +23,4 @@ const DataAnalysis = () => {
 
 
 
-export default DataAnalysis;
+export default dataAnalysis;

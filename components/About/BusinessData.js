@@ -3,7 +3,7 @@ import Image from "next/image";
 import DataAnalytics from "../../public/dataAnalytics.png"
 
 
-const BusinessData = () => {
+const businessData = () => {
     return (
         <section className={classes.businessContainer}>
             <div className={classes.dataAnalyticswrapper}>
@@ -25,4 +25,4 @@ const BusinessData = () => {
 
 
 
-export default BusinessData;
+export default businessData;
