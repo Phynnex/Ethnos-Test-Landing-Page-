@@ -1,0 +1,194 @@
+.businessContainer {
+    display:flex;
+    justify-content:center;
+    margin-top: 60px;
+}
+
+
+.dataAnalyticswrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 665px;
+}
+
+.dataAnalyticsCard {
+    background: url(../../public/dataAnalytics2.png);
+    width: 240px;
+    height: 400px;
+    background-size: cover;
+}
+
+.dataAnalyticsCard2 {
+    background: url(../../public/dataAnalytics.png);
+    width: 240px;
+    height: 400px;
+    position: relative;
+    top: 17%;
+    right: 53%;
+    background-size: cover;
+}
+
+.textContainer {
+    width: 600px;
+    margin-top: 30px;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #F86E03;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #333333;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2em;
+    color: #000000;
+}
+
+.learnMoreBtn {
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    background: #576358;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+ /* Data Analytics styling */
+.dataContainer {
+    display:flex;
+    justify-content:center;
+    /* margin-top: 60px; */
+}
+.dataTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.dataConsult {
+   
+    width: 320px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 70px;
+    background: url(../../public/dataConsulting.png);
+
+}
+
+.eclipse1 {
+    position: absolute;
+    width: 121px;
+    height: 121px;
+    left: 1060px;
+    top: 1230px;
+    border-radius: 50%;
+    background: rgba(248, 110, 3, 0.2);
+    z-index: -1;
+
+}
+
+.eclipse2 {
+    position: absolute;
+    width: 156px;
+    height: 156px;
+    left: 756px;
+    top: 1480px;
+    border-radius: 50%;
+    background: #F86E03;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.consultationBtn {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    background: #576358;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+ /* Data Analytics styling */
+
+ /* Training Styling */
+
+ .dataTraining {
+    width: 313px;
+    height: 320px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 80px;
+    background: url(../../public/dataTraining.png);
+
+}
+
+.trainingTextContainer {
+    width: 600px;
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+.trainingTitle {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+.trainingElipse1 {
+    position: absolute;
+    width: 186px;
+    height: 186px;
+    left: 361px;
+    top: 1633px;
+    background: #F86E03;
+    opacity: 0.4;
+    border-radius: 50%;
+    z-index: -1;
+
+}
+
+.trainingElipse2 {
+    position: absolute;
+    width: 133px;
+    height: 123px;
+    left: 105px;
+    top: 1945px;
+    background: rgba(248, 110, 3, 0.2);
+    border-radius: 50%;
+    z-index: -1;
+
+}

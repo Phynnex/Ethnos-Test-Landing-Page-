@@ -1,0 +1,133 @@
+.FooterSection {
+  background: #576358;
+  color: #fff;
+  height: 492px;
+ 
+  
+}
+
+.footerContainer {
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  /* grid-column-gap: 5px; */
+  grid-row-gap: 0px;
+  justify-items: center;
+  align-items: center;
+  padding: 0px 30px;
+  
+}
+
+
+.title {
+    display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  /* grid-column-gap: 5px; */
+  grid-row-gap: 0px;
+  justify-items: center;
+  align-items: center;
+  padding: 0px 30px;
+}
+.footerList {
+    padding-bottom: 10px;
+}
+
+
+.footerTitle {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footerText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+
+
+.address {
+    width: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.socials {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+/* .newsLetter {
+    margin-top: -30px;
+} */
+.inputDiv {
+    width: 300px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footerInput {
+    width: 150px;
+    height: 35px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.footerBtn {
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    background: #F86E03;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+.footerLine {
+    width: 97%;
+    height: 3px;
+    background: #D9D9D9;
+    margin: 0px 30px
+
+
+}
+
+.copyright {
+    margin: 80px 30px 0px 0px;
+}
+
+.copyrightText {
+    display: flex;
+    justify-content: flex-end;
+}
