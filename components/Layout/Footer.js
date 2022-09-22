@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import classes from "./Footer.module.css";
 import Mail from "../../public/mail.png"
-import Phone from "../../public/Phone.png"
+import Phone from "../../public/phone.png"
 
 
 const contact = [
