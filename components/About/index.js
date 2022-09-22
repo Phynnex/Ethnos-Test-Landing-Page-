@@ -1,15 +1,15 @@
-import BusinessData from "./businessData";
-import DataAnalysis from "./dataAnalysis";
-import Training from "./training";
+import BusinessData from "./BusinessData"
+import DataAnalysis from "./DataAnalysis"
+import Training from "./Training"
 
-const index = () => {
-    return <div>
-        <BusinessData/>
-        <DataAnalysis/>
-        <Training/>
-    </div>;
+const AboutMainComponent = () => {
+	return (
+		<div>
+			<BusinessData />
+			<DataAnalysis />
+			<Training />
+		</div>
+	)
 }
 
-
-
-export default index;
+export default AboutMainComponent
