@@ -1,7 +1,7 @@
 import classes from "./About.module.css";
 
 
-const training = () => {
+const Training = () => {
   return (
     <div className={classes.businessContainer}>
       <div>
@@ -23,4 +23,4 @@ const training = () => {
   );
 };
 
-export default training;
+export default Training;
